@@ -13,6 +13,20 @@ import Contador from './Components/Contador/contador'
 import Header from './Components/ComponentsCBF/Header/Header'
 import Corpo from './Components/ComponentsCBF/Corpo/Corpo'
 import Dados from './Components/ComponentsCBF/Dados/Dados'
+import ExemploCSS from './Components/ComponentsCBF/ExemploCSS/ExemploCSS'
+import Relogio from './Components/ComponentsCBF/Relogio/Relogio'
+import ExemploState from './Components/ComponentsCBF/ExemploState/ExemploState'
+import Lampada from './Components/ComponentsCBF/ExemploEventos/Lampada'
+import RedenrizacaoCondicional from './Components/ComponentsCBF/RedenrizacaoCondicional/RedenrizacaoCondicional'
+import RenderizacaoCondicional2 from './Components/ComponentsCBF/RenderizacaoCondicional2/RenderizacaoCondicional'
+import TrabalhandoComLista from './Components/ComponentsCBF/TrabalhandoComLista/TrabalhandoComLista'
+import TrabalhandoComLista2 from './Components/ComponentsCBF/TrabalhandoComLista2/TrabalhandoComLista2'
+import ManipularFormulario from './Components/ComponentsCBF/ManipulandoElementosFormulario/ManipularFormulario'
+import ManipularFormulario2 from './Components/ComponentsCBF/ManipulandoElementosFormulario2/ManipulandoElementosFormulario2'
+import ManipilarObjeto from './Components/ComponentsCBF/ManipulandoObjetosComState/ManipularObjeto'
+import ElevacaoSTATE from './Components/ComponentsCBF/ElevacaoSTATE/ElevacaoSTATE'
+import Contencao from './Components/ComponentsCBF/CONTENCAO/Contencao'
+import HookUseEffect from './Components/ComponentsCBF/HookUseEffec/HookUseEffec'
 import './index.css'; 
 import './App.css'
  
@@ -28,16 +42,59 @@ export default (props) => {
     <h1>Fundamentos React</h1>
 
     <div className = "Cards">
-         <Card titulo="#13 - Dados CFB aula 6" color="">
+      <Card titulo="#26 - Dados CFB aula 19" color="">
+          <HookUseEffect></HookUseEffect>
+        </Card>
+        <Card titulo="#25 - Dados CFB aula 18" color="">
+          <Contencao></Contencao>
+        </Card>
+        <Card titulo="#24 - Dados CFB aula 16 e 17" color="">
+          <ElevacaoSTATE></ElevacaoSTATE>
+        </Card> 
+        <Card titulo="#23 - Dados CFB aula 15" color="">
+          <ManipilarObjeto></ManipilarObjeto>
+        </Card>
+        <Card titulo="#22 - Dados CFB aula 14" color="">
+        <ManipularFormulario2></ManipularFormulario2>
+        </Card>
+        <Card titulo="#21 - Dados CFB aula 14" color="">
+                <ManipularFormulario></ManipularFormulario>
+        </Card>
+         <Card titulo="#20 - Dados CFB aula 13" color="">
+               <TrabalhandoComLista2></TrabalhandoComLista2>
+        </Card>
+        <Card titulo="#19 - Dados CFB aula 13" color="">
+               <TrabalhandoComLista></TrabalhandoComLista>
+        </Card>
+        <Card titulo="#18 - Dados CFB aula 12" color="">
+               <RenderizacaoCondicional2></RenderizacaoCondicional2>
+        </Card>
+        <Card titulo="#17 - Dados CFB aula 12" color="">
+              <RedenrizacaoCondicional></RedenrizacaoCondicional>
+        </Card>
+        <Card titulo="#16 - Dados CFB aula 11" color="">
+              <Lampada></Lampada>
+        </Card>
+        <Card titulo="#15 - Dados CFB aula 10" color="">
+               <ExemploState></ExemploState>
+        </Card>
+        <Card titulo="#14 - Dados CFB aula 9" color="">
+               <Relogio></Relogio>
+        </Card>
+        <Card titulo="#13 - Dados CFB aula 8" color="">
+              <ExemploCSS></ExemploCSS> 
+        </Card>
+          
+         <Card titulo="#13 - Dados CFB aula 7" color="">
          
                <Dados canal= {cnl} youtube = {yt} curso = {crs}></Dados>
         </Card>
 
-        <Card titulo="#12 - Corpo CFB aula 5" color="">
+        <Card titulo="#12 - Corpo CFB aula 7 " color="">
                <Corpo></Corpo>
         </Card>
 
-        <Card titulo="#11 - header CFB aula 5" color="">
+        <Card titulo="#11 - header CFB aula 6" color="">
               <Header></Header> 
         </Card> 
 
